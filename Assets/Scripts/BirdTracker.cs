@@ -11,9 +11,4 @@ public class BirdTracker : MonoBehaviour
     {
         transform.position = new Vector3(_bird.transform.position.x - _offsetX, transform.position.y, transform.position.z);
     }
-
-    public void Test()
-    {
-
-    }
 }
